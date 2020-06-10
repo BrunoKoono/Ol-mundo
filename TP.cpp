@@ -1,0 +1,21 @@
+#include <iostream>
+#include <math.h>
+
+
+int main() 
+{
+using namespace std;
+    int n1, n2, som, sub, mult, div;
+	cout << "Digite o primeiro número: " << endl;
+    cin >> n1;
+    cout << "Digite o segundo número: " << endl;
+    cin >> n2;
+
+    cout << "A soma é: " << n1 + n2 << endl;
+    cout << "A subtracao é: " << n1 - n2 << endl;
+    cout << "O produto é: " << n1 * n2 << endl;
+    cout << "A divisao é: " << n1 / n2 << endl;
+    cout << "A potencia é: " << pow(n1,n1) << endl;
+    
+        return 0;
+}
